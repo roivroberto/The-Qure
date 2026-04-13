@@ -1,13 +1,13 @@
-# NeuroQLeap 🧠💻
+# Qu-Alz 🧠⚛️
 
 **Quantum-Enhanced Alzheimer's Prediction & Early Risk Assessment**
 
-[![Language](https://img.shields.io/github/languages/top/roivroberto/NeuroQLeap)](https://github.com/roivroberto/NeuroQLeap)
-[![Repo size](https://img.shields.io/github/repo-size/roivroberto/NeuroQLeap)](https://github.com/roivroberto/NeuroQLeap)
-[![Last commit](https://img.shields.io/github/last-commit/roivroberto/NeuroQLeap)](https://github.com/roivroberto/NeuroQLeap)
-[![Stars](https://img.shields.io/github/stars/roivroberto/NeuroQLeap?style=social)](https://github.com/roivroberto/NeuroQLeap)
-[![Forks](https://img.shields.io/github/forks/roivroberto/NeuroQLeap?style=social)](https://github.com/roivroberto/NeuroQLeap)
-[![License](https://img.shields.io/github/license/roivroberto/NeuroQLeap)](https://github.com/roivroberto/NeuroQLeap)
+[![Language](https://img.shields.io/github/languages/top/roivroberto/Qu-Alz)](https://github.com/roivroberto/Qu-Alz)
+[![Repo size](https://img.shields.io/github/repo-size/roivroberto/Qu-Alz)](https://github.com/roivroberto/Qu-Alz)
+[![Last commit](https://img.shields.io/github/last-commit/roivroberto/Qu-Alz)](https://github.com/roivroberto/Qu-Alz)
+[![Stars](https://img.shields.io/github/stars/roivroberto/Qu-Alz?style=social)](https://github.com/roivroberto/Qu-Alz)
+[![Forks](https://img.shields.io/github/forks/roivroberto/Qu-Alz?style=social)](https://github.com/roivroberto/Qu-Alz)
+[![License](https://img.shields.io/github/license/roivroberto/Qu-Alz)](https://github.com/roivroberto/Qu-Alz)
 
 ---
 
@@ -18,7 +18,7 @@
 ---
 
 ## 📖 About
-**NeuroQLeap** is a cutting-edge healthcare solution developed for the **SEA Quantathon 2025** by team **The Qure**. It leverages **Quantum Machine Learning (QML)** and deep learning to provide early detection and risk assessment for Alzheimer's disease.
+**Qu-Alz** is a cutting-edge healthcare solution developed for the **SEA Quantathon 2025** by team **The Qure**. It leverages **Quantum Machine Learning (QML)** and deep learning to provide early detection and risk assessment for Alzheimer's disease.
 
 By introducing the **Quantum Entanglement Entropy Score (EES)**—a fundamentally quantum-only biomarker—this project identifies subtle patterns in MRI data that classical machine learning kernels cannot compute. This innovation aims to push the boundaries of early neurodegenerative disease diagnosis using the power of quantum information theory.
 
@@ -52,7 +52,7 @@ By introducing the **Quantum Entanglement Entropy Score (EES)**—a fundamentall
 - `Classifier/`: CNN and QCNN (Quantum CNN) models for disease stage prediction.
 - `Segmentation/`: U-Net models and scripts for MRI image segmentation.
 - `Risk/`: Quantum EES pipeline and risk assessment models.
-- `docs/`: Project documentation and presentation materials.
+- `docs/`: Project documentation and presentation materials (SEA Quantathon 2025).
 
 ---
 
@@ -61,7 +61,7 @@ By introducing the **Quantum Entanglement Entropy Score (EES)**—a fundamentall
 ### **1. Frontend Interface**
 ```bash
 cd alzheimers-prediction-interface
-npm install
+npm install --legacy-peer-deps
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) to see the dashboard.
@@ -85,4 +85,5 @@ This project is licensed under the MIT License.
 - **Event:** SEA Quantathon 2025 (Healthcare & Medicine Track)
 - **Location:** Bangkok, Thailand
 - **Team:** The Qure
+- **Project Name:** Qu-Alz (Quantum Alzheimer’s Prediction)
 - **Theme:** Prototyping quantum solutions for social good in Southeast Asia.
